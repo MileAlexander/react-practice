@@ -1,15 +1,11 @@
-//import logo from './logo.svg';
 import './App.css';
-import PizzaComponent from './components/PizzaComponent/PizzaComponent';
+import Timer2 from './components/Timer2';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <PizzaComponent name="Kolbaszos rajas" price="1500"/>
-        <p>
-          Szevasz tavasz
-        </p>
+        <Timer2 />
         <a
           className="App-link"
           href="https://reactjs.org"
